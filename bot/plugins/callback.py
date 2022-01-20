@@ -1528,7 +1528,7 @@ async def cb_set(bot, update: CallbackQuery):
             
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    "Close ❌", callback_data="close"
                 )
         ]
     ]
@@ -1573,7 +1573,7 @@ async def cb_status(bot, update: CallbackQuery):
             
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    "Close ❌", callback_data="close"
                 )
         ]
     ]
@@ -1601,14 +1601,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/CrazyBotszGrp">@CrazyBotszGrp</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/CrazyBotsz/Adv-Filter-Bot-V2">Source</a>"""
+    text+=f"""\n<b><i>Bot Owner:</i></b> <a href="https://t.me/Wuzzup_GirL">@Wuzzup_GirL</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/MASTER-TG/PASIYA-AUTO-FILTER-BOT.git">Source</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/AlbertEinstein_TG"
+                    "My TG ⚡", url="https://t.me/Wuzzup_GirL"
                 ),
                 
             InlineKeyboardButton
@@ -1619,7 +1619,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    "Close ❌", callback_data="close"
                 )
         ]
     ]
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Filter-Bot-V2')
+            InlineKeyboardButton('My TG 👨‍🔬', url='https://t.me/Wuzzup_GirL'),
+            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/MASTER-TG/PASIYA-AUTO-FILTER-BOT.git')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('Support 🛠', url='https://t.me/MemesHut')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
@@ -1659,10 +1659,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('About 🚩', callback_data='about')
+            InlineKeyboardButton('Home 🏠', callback_data='start'),
+            InlineKeyboardButton('About ✳️', callback_data='about')
         ],[
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('Close ❌', callback_data='close')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1677,8 +1677,8 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('Home 🏠', callback_data='start'),
+            InlineKeyboardButton('Close ❌', callback_data='close')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
