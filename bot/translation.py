@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @Wuzzup_GirL
+# (c) @Wuzzup_BoY
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
+    START_TEXT = """<b>Yo Wuzzup ! {}!!</b>
 <i>Am Advance Auto Filter Bot.🥸
 
 Just Add Me To Your Group And Channel And Connect Them And See My Pever👻
 
 For More Details Click Help Button Below..
-@Wuzzup_GirL
+@Wuzzup_BoY
 </i>"""    
     
     HELP_TEXT = """
@@ -43,7 +43,7 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@Wuzzup_GirL
+@Wuzzup_BoY
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
