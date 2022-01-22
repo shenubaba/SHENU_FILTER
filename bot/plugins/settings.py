@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @Wuzzup_GirL
+# (c) @Wuzzup_BoY
 
 import re
 from pyrogram import Client, filters
