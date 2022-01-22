@@ -1601,14 +1601,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Owner:</i></b> <a href="https://t.me/Wuzzup_GirL">@Wuzzup_GirL</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/MASTER-TG/PASIYA-AUTO-FILTER-BOT.git">Source</a>"""
+    text+=f"""\n<b><i>Bot Owner:</i></b> <a href="https://t.me/Wuzzup_BoY">@Wuzzup_BoY</a>\n"""
+    text+="""\n<b><i>Developer:</i></b> <a href="https://t.me/@Wuzzup_BoY">Develop</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My TG ⚡", url="https://t.me/Wuzzup_GirL"
+                    "My TG ⚡", url="https://t.me/Wuzzup_BoY"
                 ),
                 
             InlineKeyboardButton
@@ -1639,10 +1639,8 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My TG 👨‍🔬', url='https://t.me/Wuzzup_GirL'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/MASTER-TG/PASIYA-AUTO-FILTER-BOT.git')
-        ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/MemesHut')
+            InlineKeyboardButton('My TG 👨‍🔬', url='https://t.me/Wuzzup_BoY'),
+            InlineKeyboardButton('Developer', url ='https://t.me/@Wuzzup_BoY')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
