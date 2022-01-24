@@ -106,4 +106,4 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 ## Credits
 
  - Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
- - [Thanks To Me 👀](https://github.com/MASTER-TG)
+ - [Thanks To Me ❤️](https://github.com/MASTER-TG)
