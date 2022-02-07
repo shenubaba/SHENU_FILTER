@@ -5,7 +5,7 @@
 class Translation(object):
     
     START_TEXT = """<b>Yo Wuzzup ! {}!!</b>
-<i>Am Advance Auto Filter Bot.🥸
+<i>🔥I Am Advance Auto Filter Bot.🥸
 
 Just Add Me To Your Group And Channel And Connect Them And See My Pever👻
 
@@ -48,7 +48,7 @@ For More Details Click Help Button Below..
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/Wuzzup_GirL">Wuzzup_BoY</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/Wuzzup_BoY">Wuzzup_BoY</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
